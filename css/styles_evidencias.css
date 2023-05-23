@@ -1,26 +1,26 @@
-body{
+body {
     background: url(../img/Incendios.jpg);
     font-family: 'Montserrat', sans-serif;
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     color: aliceblue;
     padding: 0;
     margin: 1rem;
 }
 
-header nav ul li{
+header nav ul li {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: left;
 }
 
-.neon{
+.neon {
     position: relative;
     display: inline-block;
     padding: 15px 30px;
@@ -34,18 +34,26 @@ header nav ul li{
     text-align: center;
 }
 
-.neon:hover{
+.neon:hover {
     background-color: rgb(239, 88, 0);
     box-shadow: 0 0 10px rgb(239, 88, 0), 0 0 40px rgb(239, 88, 0), 0 0 75px rgb(239, 88, 0);
 }
 
-.contenedor{
+.contenedor {
     color: #fff;
     width: 1390px;
-    height: 1500px ;
+    height: 3800px;
     max-width: 100%;
     margin: 2rem;
     position: relative;
+}
+
+
+
+/* Las instruicciones anteriores en CSS son el estandar de la pagina web. */
+
+h5 {
+    text-align: justify;
 }
 
 h1 {
@@ -54,33 +62,33 @@ h1 {
     margin: 70px;
 }
 
-.ficha_tecnica{
+.ficha_tecnica {
     color: black;
     background-color: #fff;
     padding: 10px;
     position: absolute;
     width: 850px;
-    height: 230px;
+    height: 300px;
     left: 95px;
     border-radius: 10px;
 }
 
-h3{
+h3 {
     text-align: center;
 }
 
-.evid_1{
+.evid_1 {
     background: url(../img/evi1.png);
     background-size: cover;
     border-radius: 100%;
     width: 175px;
     height: 175px;
     position: absolute;
-    right: 60px;
-    top: 210px;
+    right: 40px;
+    top: 220px;
 }
 
-.evid_2{
+.evid_2 {
     background: url(../img/evi2.png);
     background-size: cover;
     border-radius: 100%;
@@ -91,19 +99,19 @@ h3{
     top: 125px;
 }
 
-.ficha_tecnica2{
+.ficha_tecnica2 {
     background-color: #fff;
     color: black;
     position: absolute;
     padding: 10px;
     width: 850px;
-    height: 230px;
+    height: 300px;
     right: 75px;
     border-radius: 10px;
-    top: 450px;
+    top: 500px;
 }
 
-.evid_3{
+.evid_3 {
     background: url(../img/evi3.png);
     background-size: cover;
     border-radius: 100%;
@@ -111,10 +119,10 @@ h3{
     height: 175px;
     position: absolute;
     left: 80px;
-    top: 450px;
+    top: 475px;
 }
 
-.evid_4{
+.evid_4 {
     background: url(../img/evi4.png);
     background-size: cover;
     border-radius: 100%;
@@ -122,22 +130,22 @@ h3{
     height: 175px;
     position: absolute;
     left: 255px;
-    top: 550px;
+    top: 575px;
 }
 
-.ficha_tecnica4{
+.ficha_tecnica4 {
     background-color: #fff;
     color: black;
     position: absolute;
     padding: 10px;
     width: 850px;
-    height: 230px;
+    height: 300px;
     right: 75px;
     border-radius: 10px;
-    top: 1050px;
+    top: 1200px;
 }
 
-.evid_7{
+.evid_7 {
     background: url(../img/evi7.png);
     background-size: cover;
     border-radius: 100%;
@@ -145,10 +153,10 @@ h3{
     height: 175px;
     position: absolute;
     left: 80px;
-    top: 1050px;
+    top: 1250px;
 }
 
-.evid_8{
+.evid_8 {
     background: url(../img/evi8.png);
     background-size: cover;
     border-radius: 100%;
@@ -156,23 +164,22 @@ h3{
     height: 175px;
     position: absolute;
     left: 255px;
-    top: 1150px;
+    top: 1325px;
 }
 
-.ficha_tecnica3{
+.ficha_tecnica3 {
     color: black;
     background-color: #fff;
     padding: 10px;
     position: absolute;
     width: 850px;
-    height: 230px;
+    height: 300px;
     left: 95px;
     border-radius: 10px;
-    top: 750px;
+    top: 850px;
 }
 
-
-.evid_5{
+.evid_5 {
     background: url(../img/evi5.png);
     background-size: cover;
     border-radius: 100%;
@@ -180,10 +187,10 @@ h3{
     height: 175px;
     position: absolute;
     right: 60px;
-    top: 750px;
+    top: 850px;
 }
 
-.evid_6{
+.evid_6 {
     background: url(../img/evi6.png);
     background-size: cover;
     border-radius: 100%;
@@ -191,10 +198,160 @@ h3{
     height: 175px;
     position: absolute;
     right: 235px;
-    top: 850px;
+    top: 950px;
 }
 
-footer{
+.ficha_tecnica5 {
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    padding: 10px;
+    width: 850px;
+    height: 300px;
+    right: 75px;
+    border-radius: 10px;
+    top: 1550px;
+}
+
+
+.evid_D {
+    background: url(../img/evid_D.jpg);
+    background-size: contain;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 135px;
+    top: 1550px;
+}
+
+.ficha_tecnica6 {
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+    position: absolute;
+    width: 850px;
+    height: 300px;
+    left: 95px;
+    border-radius: 10px;
+    top: 1900px;
+}
+
+.evid_9 {
+    background: url(../img/evi9.png);
+    background-size: cover;
+    border-radius: 100%;
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    right: 235px;
+    top: 1900px;
+}
+
+.evid_10 {
+    background: url(../img/evi_10.png);
+    background-size: cover;
+    border-radius: 100%;
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    right: 100px;
+    top: 2050px;
+}
+
+
+.ficha_tecnica7 {
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    padding: 10px;
+    width: 850px;
+    height: 300px;
+    right: 75px;
+    border-radius: 10px;
+    top: 2250px;
+}
+
+.evid_11 {
+    background: url(../img/evid_11.png);
+    background-size: cover;
+    border-radius: 100%;
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    left: 255px;
+    top: 2325px;
+}
+
+
+.ficha_tecnica8 {
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+    position: absolute;
+    width: 850px;
+    height: 300px;
+    left: 95px;
+    border-radius: 10px;
+    top: 2600px;
+}
+
+.evid_13 {
+    background: url(../img/evid_13.png);
+    background-size: cover;
+    border-radius: 100%;
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    right: 200px;
+    top: 2620px;
+}
+
+.ficha_tecnica9 {
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    padding: 10px;
+    width: 850px;
+    height: 300px;
+    right: 75px;
+    border-radius: 10px;
+    top: 2950px;
+}
+
+.evid_12 {
+    background: url(../img/evid_14.png);
+    background-size: cover;
+    border-radius: 100%;
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    left: 255px;
+    top: 3000px;
+}
+
+
+.ficha_tecnica10 {
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+    position: absolute;
+    width: 850px;
+    height: 300px;
+    left: 95px;
+    border-radius: 10px;
+    top: 3300px;
+}
+
+
+
+
+
+
+
+
+
+footer {
     color: #fff;
     background-color: rgb(5, 44, 50);
     opacity: 0.5;
@@ -206,24 +363,24 @@ footer{
 }
 
 
-@media screen and (max-width: 1280px){
-    #subtitulo{
+@media screen and (max-width: 1280px) {
+    #subtitulo {
         font-size: 50px;
         text-align: center;
         left: 250px;
         top: 0px;
     }
 
-    header nav ul li{
+    header nav ul li {
         list-style-type: none;
         margin: 0;
         padding: 0;
         text-align: center;
         font-size: 30px;
     }
-    
-    .contenedor{
+
+    .contenedor {
         height: 1350px;
     }
-    
+
 }
